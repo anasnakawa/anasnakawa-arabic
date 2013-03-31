@@ -1,0 +1,47 @@
+---
+layout    : 'page'
+title     : 'Home'
+hideTitle : true
+---
+
+<% # gloabl variables %>
+<% maxPostLength = 400 %>
+
+<article>
+
+  <% for document in @getCollection('posts').toJSON(): %>
+
+  	<header>
+      
+      <a href="<%= document.url %>">
+        <h1><%= document.title %></h1>
+      </a>
+
+      <hr />
+      
+      <div class="app-tags">
+        <time class="label app-tag" pubdate datetime="<%= document.date %>">
+        	<i class="icon-calendar"></i> 
+        	<span class="js-format-date" data-date="<%= document.date %>"></span>
+        </time>
+        <% for tag in document.meta.tags: %>
+        	<a href="#">
+        		<span class="label app-tag"><%= tag %></span>
+        	</a>
+        <% end %>
+      </div>
+      
+      <hr />
+      
+      <div>
+
+      	<%- document.contentRenderedWithoutLayouts %>
+
+      </div>
+      
+    </header>
+
+
+  <% end %>
+
+</article>

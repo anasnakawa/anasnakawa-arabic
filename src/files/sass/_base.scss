@@ -1,0 +1,65 @@
+// ------------------------------
+// base styles
+// ------------------------------
+// author : anas.nakawa@gmail.com
+// license: MIT (http://opensource.org/licenses/mit-license.php)
+// ------------------------------
+
+// ------------------------------
+// table of content
+// ------------------------------
+// global variables
+// typography
+// base
+// ------------------------------
+
+// global variables
+// ----------------
+$experimental-support-for-svg: true;
+
+
+// typography
+// ----------
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.highlighted {
+	padding: 0;
+	text-shadow: none;
+	border: 1px solid black;
+	code {
+		@include box-shadow( 0 1px 0 rgba(255, 255, 255, 0.2) inset );
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+// base
+// ----
+.container {
+  margin-top: 40px;
+}
+
+.nav-raw {
+  list-style-type: none;
+  
+  li {
+    @include float( left );
+    padding: 0 10px;
+  }
+}
+
+// helpers
+// -------
+.center {
+  text-align: center;
+}
+
+.near {
+  @include float( left );
+}
+
+.far {
+  @include float( right );
+}

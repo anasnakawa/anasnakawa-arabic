@@ -1,0 +1,53 @@
+{
+  "name": "AnasNakawa",
+  "version": "0.1.0",
+  "description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+  "homepage": "http://anasnakawa.com",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "bootstrap",
+    "twitter bootstrap"
+  ],
+  "author": "Anas Nakawa - anas.nakawa@gmail.com",
+  "maintainers": [
+    "Anas Nakawa - anas.nakawa@gmail.com"
+  ],
+  "contributors": [
+    "Anas Nakawa - anas.nakawa@gmail.com"
+  ],
+  "bugs": {
+    "url": "https://github.com/anasnakawa/anasnakawa.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anasnakawa/anasnakawa.com.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x",
+    "docpad-plugin-sass": "~2.4.2",
+    "docpad-plugin-highlightjs": "~2.1.1",
+    "docpad-plugin-related": "~2.0.4"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x",
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-recess": "~0.3.1"
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
+}

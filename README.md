@@ -7,7 +7,7 @@
 1. Clone the project and run the server
 
 	``` bash
-	git clone git://github.com/anasnakawa/anasnakawa.com.git
+	git clone git://github.com/anasnakawa/anasnakawa-arabic.git
 	cd anasnakawa.com
 	npm install
 	docpad run

@@ -45,7 +45,7 @@
     
     
     
-    <link  rel="stylesheet" href="/css/bootstrap-custom.css" /><link  rel="stylesheet" href="/css/bootstrap-responsive-custom.css" /><link  rel="stylesheet" href="/css/main-ltr.css" />
+    <link  rel="stylesheet" href="/css/bootstrap-custom.css" /><link  rel="stylesheet" href="/css/bootstrap-responsive-custom.css" /><link  rel="stylesheet" href="/css/main-rtl.css" />
 </head>
 <body>
   
@@ -57,7 +57,7 @@
         <header>
           
           <div class="app-chrome-header">
-            <h1><a href="/">Anas Nakawa</a></h1>
+            <h1><a href="/">أنس نقاوة</a></h1>
             <div class="app-chrome-actions">
               <span class="app-chrome-close">&times;</span>
               <span class="app-chrome-minimize">-</span>
@@ -68,12 +68,13 @@
            
           <nav class="app-chrome-nav">
             <ul class="nav nav-pills">
-              <li typeof="sioc:Page" about="/"><a href="/">Home</a></li>
+              <li typeof="sioc:Page" about="/arabic"><a href="/arabic">الرئيسة</a></li>
               
                 <li typeof="sioc:Page" about="/contact" class="">
-                  <a href="/contact" property="dc:title">Contact</a>
+                  <a href="/contact" property="dc:title">تواصل معي</a>
                 </li>
               
+              <li class="pull-right" typeof="sioc:Page" about="/"><a href="/">English</a></li>
             </ul>
           </nav>
         </header>
@@ -93,65 +94,6 @@
 
 
 <article>
-
-  
-
-      <header>
-      
-      <a href="/posts/blogging-with-docpad">
-        <h1>Blogging with Docpad</h1>
-      </a>
-
-      <hr />
-      
-      <div class="app-tags">
-        <time class="label app-tag" pubdate datetime="Sun Mar 03 2013 00:00:00 GMT+0400 (GST)">
-            <i class="icon-calendar"></i> 
-            <span class="js-format-date" data-date="Sun Mar 03 2013 00:00:00 GMT+0400 (GST)"></span>
-        </time>
-        
-            <a href="#">
-                <span class="label app-tag">docpad</span>
-            </a>
-        
-            <a href="#">
-                <span class="label app-tag">html</span>
-            </a>
-        
-            <a href="#">
-                <span class="label app-tag">post</span>
-            </a>
-        
-      </div>
-      
-      <hr />
-      
-      <div>
-
-          <p>it has been a while since my last blog post, which happened over 2 years ago..  </p>
-<p>usually i am not that active blogger, maybe because I wasn&#39;t feeling comfortable with the blog engines out there, also lets not forget that most of the times i am a lazy person, especially when it comes to writing posts.</p>
-<h3>Why I hated blog engines ?</h3>
-<p>actually I think blog engines ( such as Wordpress, tumblr ..etc ) are great for writing posts for most people, but when it comes to a developer like me sometimes I just don&#39;t feel that I have the freedom that I want..</p>
-<p>either if I want to share a code snippet with some fancy syntax highlighting, or if I want to provide some live demo, both ways I will end up looking for some plugin to satisfy my needs ... not exactly what I was looking for.</p>
-<p>the answer should be much simpler, all I need is to write HTML/CSS &amp; JS code at my convenience, and that was not much to ask.</p>
-<h3>A better alternative..</h3>
-<p>Last year I started to hear about somthing called <strong>static site generators</strong>, I even started to see some great front-end developers shifting their blogs into one of these generators..</p>
-<p>first I was surprised that most static site generator implementations out there were built on ruby ( e.g: <a href="https://github.com/mojombo/jekyll">Jekyll</a>, <a href="https://github.com/imathis/octopress">Octopress</a> ), but since I am a javascript guy, I was looking for something more familiar to me...a Node Js implementation, and found that <a href="https://github.com/bevry/docpad">Docpad</a> was exactly what I was looking for.</p>
-<p>getting started with docpad was straight forward, they have some nice set of <a href="http://docpad.org/docs/skeletons">pre-built skeletons</a>, so I cloned their <a href="https://github.com/docpad/twitter-bootstrap.docpad">Bootstrap Skeleton</a>, and got my hands on this nice technology..</p>
-<h3>Design inspiration</h3>
-<p>it is worth mentioning that this site was not only inspired by <a href="http://premiumpixels.com/">Orman&#39;s Clark</a> great designs, I actually transofmed his <a href="http://www.premiumpixels.com/freebies/code-editor-app-psd/">Code Editor App</a> completly into what you see over here.</p>
-<div class="img-wrap">
-  <img alt="Code Editor App - By Orman Clark" title="Code Editor App - By Orman Clark" src="http://turbo.premiumpixels.com/wp-content/uploads/2012/05/preview.jpg" />
-</div>
-
-<h3>Site code</h3>
-<p>you can find the source code of this site hosted on <a href="https://github.com/anasnakawa/anasnakawa.com">Github</a>, go a head make a fork, and have it at your own site, I will be more than happy :)</p>
-
-
-      </div>
-      
-    </header>
-
 
   
 
@@ -178,12 +120,12 @@
   
   <p>
     
-    Hi I am Anas Nakawa, a front-end engineer & a user interface designer from Jordan living in Dubai 
+    مطور ويب ومصمم لواجهة المستخدم من الأردن، مقيم حالياً في دبي
     
     <br />
     <br />
     
-    <a href="https://twitter.com/anasnakawa" class="twitter-follow-button" data-show-count="false">Follow @anasnakawa</a>
+    <a href="https://twitter.com/anasnakawa" class="twitter-follow-button" data-show-count="false">تابعني على تويتر @anasnakawa</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   
   </p>
@@ -200,8 +142,8 @@
       
       <footer class="app-footer span10 offset1">
         <p class="near">
-          built using <a href="//docpad.org">Docpad</a>, and <a href="//twitter.github.com/bootstrap">Bootstrap</a>, source on 
-          <a href="//github.com/anasnakawa/anasnakawa.com">Github</a>, &copy; Anas Nakawa 2013 
+          طوّر الموقع بواسطة <a href="nodejs.org">NodeJs</a>, <a href="//docpad.org">Docpad</a> و <a href="//twitter.github.com/bootstrap">Bootstrap</a>, النص موجود على 
+          <a href="//github.com/anasnakawa/anasnakawa.com">Github</a>, &copy; أنس نقاوة 2013 
         </p>
         
         <ul class="nav-raw far">

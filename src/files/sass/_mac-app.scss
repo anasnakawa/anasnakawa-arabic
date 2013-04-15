@@ -206,7 +206,7 @@ $app-chrome-custom-font: "Lato", sans-serif;
   text-shadow: 0 1px 0 white;
   
   @media ( min-width: 768px ) {
-    @include box-shadow( -1px 0 0 white, -2px 0 0 #D5D9DE );
+    @include box-shadow( 1px 0 0 white, 2px 0 0 #D5D9DE );
   }
    
   h1, h2, h3, h4, h5, h6 {

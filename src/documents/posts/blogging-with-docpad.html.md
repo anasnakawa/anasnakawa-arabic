@@ -1,38 +1,49 @@
 ---
-title 	: 'Blogging with Docpad'
+title 	: 'ستيك على طريقة أوتباك'
 layout	: 'post'
-tags	  : ['docpad', 'html', 'post']
+tags	  : ['طبخ', 'ستيك']
 date    : '03-03-2013'
 ---
 
-it has been a while since my last blog post, which happened over 2 years ago..  
-
-usually i am not that active blogger, maybe because I wasn't feeling comfortable with the blog engines out there, also lets not forget that most of the times i am a lazy person, especially when it comes to writing posts.
-
-### Why I hated blog engines ?
-
-actually I think blog engines ( such as Wordpress, tumblr ..etc ) are great for writing posts for most people, but when it comes to a developer like me sometimes I just don't feel that I have the freedom that I want..
-
-either if I want to share a code snippet with some fancy syntax highlighting, or if I want to provide some live demo, both ways I will end up looking for some plugin to satisfy my needs ... not exactly what I was looking for.
-
-the answer should be much simpler, all I need is to write HTML/CSS & JS code at my convenience, and that was not much to ask.
-
-### A better alternative..
-
-Last year I started to hear about somthing called **static site generators**, I even started to see some great front-end developers shifting their blogs into one of these generators..
-
-first I was surprised that most static site generator implementations out there were built on ruby ( e.g: [Jekyll](https://github.com/mojombo/jekyll), [Octopress](https://github.com/imathis/octopress) ), but since I am a javascript guy, I was looking for something more familiar to me...a Node Js implementation, and found that [Docpad](https://github.com/bevry/docpad) was exactly what I was looking for.
-
-getting started with docpad was straight forward, they have some nice set of [pre-built skeletons](http://docpad.org/docs/skeletons), so I cloned their [Bootstrap Skeleton](https://github.com/docpad/twitter-bootstrap.docpad), and got my hands on this nice technology..
-
-### Design inspiration
-
-it is worth mentioning that this site was not only inspired by [Orman's Clark](http://premiumpixels.com/) great designs, I actually transofmed his [Code Editor App](http://www.premiumpixels.com/freebies/code-editor-app-psd/) completly into what you see over here.
-
-<div class="img-wrap">
-  <img alt="Code Editor App - By Orman Clark" title="Code Editor App - By Orman Clark" src="http://turbo.premiumpixels.com/wp-content/uploads/2012/05/preview.jpg" />
-</div>
-
-### Site code
-
-you can find the source code of this site hosted on [Github](https://github.com/anasnakawa/anasnakawa.com), go a head make a fork, and have it at your own site, I will be more than happy :)
+المكونات (لشخصين):
+قطعتين لحم بقري "تندرليون" قد تسمى "الفتيلة" بالعربي سُمُك 5سم
+بطاطا 300 غم
+كريمة طبخ 200 غم
+زيت زيتون
+ملح
+فلفل حب
+خل بلسمي (او عادي)
+زبدة
+بهار بطاطا مهروسة
+ 
+تحضير البطاطا المهروسة:
+قم بسلق البطاطا حتى تستوي تماماً
+قم بتصفية البطاطا من الماء ومن ثم تقشيرها ووضعها في وعاء
+اهرس البطاطا جيداً
+أضف ملعقتين كبيرتين من الزبدة واعد الهرس لتمتزج الزبدة جيداً
+أضف ثلاثة ملاعق كبيرة من الكريمة واعد الهرس لتمتزج الكريمة جيداً
+ضع ملعقتين كبيرتين من بهار البطاطا وامزجهم جيداً
+ 
+إضافة: قد تضيف الى البطاطا قليلا من البصل الأخضر المفروم
+ 
+تحضير الستيك:
+انقع قطعة اللحمة قبل يوم من التحضير بملعقة كبيرة زيت زيتون وملعقة كبيرة خل وبعض الفلفل المطحون وافركها جيداً
+ 
+في اليوم التالي ضع ملعقة كبيرة من الزبدة في الطنجرة على نار مرتفعة
+عندما تسخن الزبدة, ضع قطع اللحم في المقلاة لمدة 3-4 دقائق لكل وجه
+ قم بتخفيف النار وضع غطاء على المقلاة \ الطنجرة ودعها لمدة 5 دقائق تقريباُ ثم قم بتقليب اللحم ودعها لمدة 5 دقائق أخرى تقريباً
+اقطع مقطعاً عرضياً من قطعة اللحمة لتتأكد من نوعية الاستواء الذي تفضله
+افرغ الطنجرة من قطع اللحمة, قم ايضاً بتفريغها من بقايا الزبدة بحيث يبقى حوالي ملعقة صغيرة منها
+لا تقم بافراغ بقايا اللحم (الفتافيت المحروقة) حيث سنستفيد منهم في صنع الصلصة
+ 
+إضافة: قد تضيف قرصاً صغيراُ من الزبدة المنكهة فوق قطعة اللحم بعد الاستواء
+(من الممكن شرائها جاهزة أو عملها في المنزل وفقاً للمقال التالي http://www.fatafeat.com/main.php?action=viewrecipe&id=2706)
+ 
+ 
+تحضير صلصة الفلفل الاسود:
+قم بافراغ ما تبقى من كريمة الطبخ في الطنجرة على نار مرتفعة
+اطحن فلفل اسود فوق الكريمة
+حرك الكريمة وانتبه حينما تبدأ بالغليان ستبدأ الكريمة بالتماسك لتصبح كثيفة
+حين تصبح كثافة الكريمة مناسبة (على زوقك) اطفئ النار
+ 
+ملاحظة: اذا وجدت الكريمة قد انفصلت عن الزبدة فاعلم انك قد قمت بطهيها اكثر من اللازم (يعني الكريمة صارت سلامتك)

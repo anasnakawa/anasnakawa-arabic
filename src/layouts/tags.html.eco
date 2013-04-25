@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Posts Tagged with: '<%= @document.tag %>'</h1>
+<h1>مقالات ضمن موضوع: '<%= @document.tag %>'</h1>
 
 <hr />
 

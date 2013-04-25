@@ -15,8 +15,12 @@
 
 // global variables
 // ----------------
-$experimental-support-for-svg: true;
+// compass settingd
+$experimental-support-for-svg : true;
 
+// fonts
+$mac-app-font-primary         : 'Droid Arabic Kufi';
+$mac-app-font-secondary       : 'Tahoma';
 
 // typography
 // ----------
@@ -64,6 +68,6 @@ body {
   @include float( left );
 }
 
-.far {
+.far, .pull-right {
   @include float( right );
 }

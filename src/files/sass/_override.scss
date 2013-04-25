@@ -35,3 +35,11 @@
 .nav > li > a:hover, .nav > li > a:focus {
   background: none;
 }
+
+// lists
+.app-article-wrap {
+  ul, ol {
+    margin: 0 25px 10px;
+  }
+ 
+}

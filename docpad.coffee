@@ -14,7 +14,7 @@ docpadConfig = {
 		site:
 		  
 			# The production url of our website
-			url: "http://anasnakawa.com"
+			url: "http://arabic.anasnakawa.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -22,11 +22,11 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: 'Anas Nakawa'
+			title: 'أنس نقاوة'
 
 			# The website description (for SEO)
 			description: """
-				Front-end developer, designer & open source geek from Jordan, living in Dubai
+				مطور ويب ومصمم لواجهة المستخدم من الأردن، مقيم حالياً في دبي 
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -36,7 +36,7 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Anas Nakawa"
+			author: 'أنس نقاوة'
 
 			# The website author's email
 			email: "anas.nakawa@gmail.com"

@@ -15,8 +15,8 @@ layout: default
         <span class="js-format-date" data-date="<%= @document.meta.date %>"></span>
       </time>
 
-      <% if @document.meta.tags: %>
-        <%- @partial( 'post--tags.html.eco', { tags: @document.meta.tags } ) %>
+      <% if @document.meta.tagsAr: %>
+        <%- @partial( 'post--tags.html.eco', { tagsAr: @document.meta.tagsAr, tags: @document.meta.tags } ) %>
       <% end %>
     </div>
     

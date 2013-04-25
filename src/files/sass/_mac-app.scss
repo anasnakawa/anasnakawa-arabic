@@ -147,54 +147,57 @@ $app-chrome-custom-font: "Lato", sans-serif;
 
 // chrome nav
 // ------------------------------
-.app-chrome-nav .nav-pills {
+.app-chrome-nav {
   
-  @include background( linear-gradient( top, #ececec, #dadada ) );
-  border-bottom: 1px solid #b6b6b6;
-  margin-bottom: 0;
-  
-  li {
-    @include margin-left( 10px );
+  .nav-pills {
+    @include background( linear-gradient( top, #ececec, #dadada ) );
+    border-bottom: 1px solid #b6b6b6;
+    margin-bottom: 0;
     
-    a {
-      padding-top: 2px;
-      padding-bottom: 2px;
-      margin-top: 4px;
-      margin-bottom: 4px;
-      font-size: 12px;
-      line-height: 12px;
-      font-family: $app-chrome-os-font;
-      border: 1px solid transparent;
-      @include transition(all 0.3s);
-      
-      &:hover {
-        background-color: gray;
-        border-color: #666666;
-        color: white;
-        text-shadow: 0 1px 0 rgba( 0, 0, 0, 0.6 );
-        @include border-radius( 20px );
-        @include background-image( linear-gradient( top, rgba( 255, 255, 255, 0.5 ), rgba( 255, 255, 255, 0 ) ) );
-        @include box-shadow( 0 1px 0 rgba( 255, 255, 255, 0.6 ) inset, 0 5px 2px -4px rgba( 0, 0, 0, 0.5 ) );
+    li {
+      margin: 0 10px;
+      // @include margin-left( 10px );
+      @include float( left );
+      a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-size: 12px;
+        line-height: 12px;
+        font-family: $mac-app-font-primary;
+        border: 1px solid transparent;
+        @include transition(all 0.3s);
+        
+        &:hover {
+          background-color: gray;
+          border-color: #666666;
+          color: white;
+          text-shadow: 0 1px 0 rgba( 0, 0, 0, 0.6 );
+          @include border-radius( 20px );
+          @include background-image( linear-gradient( top, rgba( 255, 255, 255, 0.5 ), rgba( 255, 255, 255, 0 ) ) );
+          @include box-shadow( 0 1px 0 rgba( 255, 255, 255, 0.6 ) inset, 0 5px 2px -4px rgba( 0, 0, 0, 0.5 ) );
+        }
+        
       }
       
     }
     
-  }
-  
-  .active > a, a:active, a:active:hover {
-    @include border-radius( 15px );
-    @include background( linear-gradient( top, #7c7c7b, #b2b2b2 ) );
-    @include box-shadow( 0 1px 1px rgba( 0, 0, 0, 0.65 ) inset, 0 1px 0 rgba( 255, 255, 255, 0.75 ) );
-    color: white;
-    text-shadow: 0 1px 0 rgba( 0, 0, 0, 0.35 );
-  }
-  
-  > .nav {
-    margin-bottom: 0;
-  }
-  
-  a {
-    color: #333333;
+    .active > a, a:active, a:active:hover {
+      @include border-radius( 15px );
+      @include background( linear-gradient( top, #7c7c7b, #b2b2b2 ) );
+      @include box-shadow( 0 1px 1px rgba( 0, 0, 0, 0.65 ) inset, 0 1px 0 rgba( 255, 255, 255, 0.75 ) );
+      color: white;
+      text-shadow: 0 1px 0 rgba( 0, 0, 0, 0.35 );
+    }
+    
+    > .nav {
+      margin-bottom: 0;
+    }
+    
+    a {
+      color: #333333;
+    }  
   }
 }
 
@@ -377,6 +380,7 @@ $app-chrome-custom-font: "Lato", sans-serif;
 .app-footer {
   margin-top: 20px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  font-size: 12px;
 }
 
 // common utilities

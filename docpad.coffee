@@ -18,11 +18,11 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-			  'anasnakawa.wordpress.com'
+			  "anasnakawa.wordpress.com"
 			]
 
 			# The default title of our website
-			title: 'أنس نقاوة'
+			title: "أنس نقاوة"
 
 			# The website description (for SEO)
 			description: """
@@ -36,14 +36,20 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: 'أنس نقاوة'
+			author: "أنس نقاوة"
 
 			# The website author's email
 			email: "anas.nakawa@gmail.com"
 			
 			# development mode ( dev or build )
 			mode: "build"
-      
+			
+			# directory to map arabic to english tags
+			tags: {
+			  'food': 'طبخ'
+			  'steak': 'ستيك'
+			  'post': 'مقال'
+      }
 
 
 		# -----------------------------

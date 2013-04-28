@@ -24,9 +24,7 @@
   // ---------------------
   $.backstretch('/img/dawn-bg.jpg');
   
-  // bootstrap tooltip
-  // -----------------
-  $('.js-tooltip').tooltip();
+  
   
   // equal height columns
   // --------------------
@@ -42,10 +40,21 @@
       }
 
   });
-  // }();
+  
+  // ready
+  // -----
+  $(function() {
+    
+    // format dates
+    // ------------
+    $('.js-format-date').formatDate();
+    
+    // bootstrap tooltip
+    // -----------------
+    $('.js-tooltip').tooltip();
+  
+  });
 
-  // format dates
-  // ------------
-  $('.js-format-date').formatDate();
+  
   
 })( jQuery );

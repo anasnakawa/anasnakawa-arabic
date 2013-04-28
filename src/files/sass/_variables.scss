@@ -1,5 +1,5 @@
 // ------------------------------
-// main file
+// variables
 // ------------------------------
 // author : anas.nakawa@gmail.com
 // license: MIT (http://opensource.org/licenses/mit-license.php)
@@ -8,21 +8,14 @@
 // ------------------------------
 // table of content
 // ------------------------------
-// importing resources
+// compass settings
+// fonts
 // ------------------------------
 
+// compass settings
+// ----------------
+$experimental-support-for-svg : true;
 
-// importing resources
-// -------------------
-// compass
-@import "compass/css3";
-
-// plugins
-@import "monokai";
-
-// site styles
-@import "variables";
-@import "fonts";
-@import "base";
-@import "override";
-@import "mac-app";
+// fonts
+$mac-app-font-primary         : 'Droid Arabic Kufi';
+$mac-app-font-secondary       : 'Tahoma';

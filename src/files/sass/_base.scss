@@ -8,19 +8,9 @@
 // ------------------------------
 // table of content
 // ------------------------------
-// global variables
 // typography
 // base
 // ------------------------------
-
-// global variables
-// ----------------
-// compass settingd
-$experimental-support-for-svg : true;
-
-// fonts
-$mac-app-font-primary         : 'Droid Arabic Kufi';
-$mac-app-font-secondary       : 'Tahoma';
 
 // typography
 // ----------
@@ -29,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Droid Arabic Kufi', Tahoma, serif;
+  font-family: $mac-app-font-primary, $mac-app-font-secondary, serif;
 }
 
 .highlighted {

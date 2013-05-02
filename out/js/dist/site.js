@@ -10895,9 +10895,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
   
   // stretching background
   // ---------------------
-  $.backstretch('/img/dawn-bg.jpg');
-  
-  
+  if( $(window).width() > 767 ) {
+    $.backstretch('/img/dawn-bg.jpg');    
+  }
   
   // equal height columns
   // --------------------

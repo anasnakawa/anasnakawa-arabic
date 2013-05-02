@@ -42,7 +42,7 @@ docpadConfig = {
 			email: "anas.nakawa@gmail.com"
 			
 			# development mode ( dev or build )
-			mode: "build"
+			mode: "dev"
 			
 			# directory to map arabic to english tags
 			tags: {

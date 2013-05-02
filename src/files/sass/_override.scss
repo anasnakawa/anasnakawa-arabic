@@ -48,3 +48,16 @@
 h1 {
   line-height: 50px;
 }
+
+// responsive margin
+@include tablet-portrait-and-below {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+    
+    .container {
+      margin-top: 0;
+    }
+  }
+}
+
